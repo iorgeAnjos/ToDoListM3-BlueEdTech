@@ -1,0 +1,28 @@
+{
+  "name": "todolistm3-blueedtech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iorgeAnjos/ToDoListM3-BlueEdTech.git"
+  },
+  "keywords": [],
+  "author": "jorgeAnjos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iorgeAnjos/ToDoListM3-BlueEdTech/issues"
+  },
+  "homepage": "https://github.com/iorgeAnjos/ToDoListM3-BlueEdTech#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
