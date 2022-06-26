@@ -1,13 +1,15 @@
 const express = require('express');
 const cors = require('cors');
-const routes = require('./src/routers/routes');
 const port = 3000;
+
+const route = require('./src/routers/lista.route');
+
 const app = express();
 
-app.use(express.json());
 app.use(cors());
-app.use('/tarefas/', routes);
+app.use(express.json());
+app.use('/tarefas/', route);
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em localhost:${port}`);
 });
